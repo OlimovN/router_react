@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "./Details.css";
 
 const Details = () => {
   const { id } = useParams();
@@ -15,11 +16,13 @@ const Details = () => {
   if (!product) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div className="details">
       <h1>{product.name}</h1>
       <p>Price: {product.price}</p>
       <p>Description: {product.description}</p>
-      {product.image && <img src={product.image} alt={product.name} />}
+      {product.image && (
+        <img src={product.image} alt={product.name} className="product-image" />
+      )}
     </div>
   );
 };
