@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductList from "./ProductList";
 import Filter from "./Filter";
-import "./Home.css";
-
+import "./index.css"; 
 const Home = () => {
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState("");

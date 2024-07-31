@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Details from "./pages/Details";
 import Error from "./pages/Error";
 import "./App.css";
-
 function App() {
   return (
     <div>

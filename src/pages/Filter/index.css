@@ -1,0 +1,14 @@
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.category-select {
+  padding: 5px;
+}
+
+.filter-button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}

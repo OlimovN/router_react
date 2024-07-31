@@ -1,0 +1,18 @@
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.details-link {
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
